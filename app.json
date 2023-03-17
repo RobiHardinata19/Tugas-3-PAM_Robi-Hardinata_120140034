@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "hiling",
+    "slug": "hiling",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0350a4d9-78de-48ac-81e2-7925c3723cc8"
+      }
+    },
+    "android": {
+      "package": "com.robinata19.hiling"
+    }
+  }
+}
